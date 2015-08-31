@@ -1,0 +1,171 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Cantata One', serif, 'Imprima', sans-serif;
+  text-align: center;
+  color: gray;
+  font-size: 13px;
+  height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  // Pad bottom by footer height
+  padding: 0 0 60px;
+}
+
+a, a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color:turquoise;
+  text-decoration:none;
+}
+
+a:active {
+  color: turquoise;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+
+/*-----------------------------navbar style----------------------------------*/
+.navbar a {
+  color: gray;
+  font-size: 1.5em;
+}
+
+.navbar a:hover {
+  color: turquoise;
+}
+
+.turquoise {
+  color:turquoise;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:focus {
+  color: turquoise;
+  background-color: white;
+}
+
+.navbar-transparent .navbar-nav > li > a:active {
+  color: turquoise;
+}
+
+.gray {
+  color: gray;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: gray;
+}
+
+.navbar .navbar-toggle:hover {
+  background-color: turquoise;
+}
+
+/*-----------------------------end navbar style ----------------------------------*/
+
+/*-----------------------------footer style ----------------------------------*/
+.footer {
+  position: fixed;
+  overflow: auto;
+  width: 100%;
+  top: 100%
+  height: 5em;
+  background-color: #f5f5f5;
+  padding-top: 1.5em;
+  bottom: 0em;
+  // left: 0;
+  margin-top: -5em;
+}
+
+.right-links {
+  text-align: right;
+  // padding-bottom: 1.5em;
+}
+
+.right-links a {
+  color: gray;
+}
+
+.right-links a:hover {
+  color: turquoise;
+}
+
+.left-link {
+  text-align: left;
+}
+
+/*----------------------------- end footer style ----------------------------------*/
+
+/*----------------------------- index page style ----------------------------------*/
+.images {
+  padding: 5%;
+  padding-bottom: 7em;
+}
+
+img {
+  border-radius: 4px;
+}
+
+a:hover img {
+  opacity: .2;
+}
+
+/*----------------------------- end index page style ----------------------------------*/
+
+/*----------------------------- about page style ----------------------------------*/
+.about, .contact {
+  width: 75%;
+  padding-top: 7em;
+  padding-bottom: 7em;
+  .color {
+    color: turquoise;
+  }
+}
+
+.text {
+  text-align: justify;
+  padding-left: 0px;
+}
+
+/*----------------------------- end about page style ----------------------------------*/
+
+/*----------------------------- contact page style ----------------------------------*/
+.me {
+  width: 225px;
+  // border: 1px solid gray;
+  margin-right: 0px;
+  padding-bottom: 7em;
+}
+
+.contact {
+  width: 400px;
+}
+
+/*----------------------------- end contact page style ----------------------------------*/
+
